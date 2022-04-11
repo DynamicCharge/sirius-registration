@@ -757,6 +757,7 @@ table {
   padding: 20px 40px 40px; }
 
 .myPopup__form-input, .registration-from__textarea {
+  outline: none;
   width: 100%;
   padding: 17px 0 0 0;
   border: none;
@@ -795,6 +796,13 @@ table {
   margin-top: 40px;
   border: none;
   cursor: pointer; }
+
+.success-popup {
+  display: none; }
+  .success-popup span {
+    font-size: 18px;
+    line-height: 22px;
+    color: #6a3f24; }
 
 
 /*# sourceMappingURL=main..css.map*/
